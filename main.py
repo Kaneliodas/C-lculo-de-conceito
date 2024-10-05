@@ -23,5 +23,11 @@ elif (media >= 9 and media <= 10):
     conceito = 'A'
 else:
     media = 'Média alta d+'
-print("A sua media ficou: ", media)
+
+if (conceito == 'A' or conceito == 'B' or conceito == 'C'):
+    print("Você foi aprovado.")
+elif (conceito == 'D' or conceito == 'E'):
+    print("Você foi reprovado.")
+
 print("Portanto o seu conceito ficou: ", conceito)
+print("A sua media ficou: ", media)
